@@ -1,0 +1,3 @@
+# Copy this file to local.properties for local builds.
+# Never commit the real token.
+TMDB_TOKEN=YOUR_TMDB_READ_ACCESS_TOKEN
