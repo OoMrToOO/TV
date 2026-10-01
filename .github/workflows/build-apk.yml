@@ -25,8 +25,9 @@ jobs:
           gradle-version: '9.1.0'
 
       - name: Set up Android SDK
-        uses: android-actions/setup-android@v4
-
+          uses: android-actions/setup-android@v4
+          with:
+            packages: "platform-tools platforms;android-37 build-tools;37.0.0"
       - name: Build debug APK
         env:
           TMDB_TOKEN: ${{ secrets.TMDB_TOKEN }}
