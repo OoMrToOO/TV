@@ -37,8 +37,7 @@ jobs:
         env:
           TMDB_TOKEN: ${{ secrets.TMDB_TOKEN }}
         run: |
-          printf 'TMDB_TOKEN=%s
-' "$TMDB_TOKEN" > local.properties
+          echo "TMDB_TOKEN=$TMDB_TOKEN" > local.properties
           ./gradlew assembleDebug --no-daemon --max-workers=2
 
       - name: Upload APK
