@@ -1,6 +1,10 @@
 <resources>
-<style name="Theme.HobiTV" parent="@android:style/Theme.DeviceDefault.NoActionBar">
-<item name="android:fontFamily">sans</item><item name="android:windowFullscreen">true</item>
-<item name="android:navigationBarColor">#030303</item><item name="android:statusBarColor">#030303</item>
-</style>
+    <style name="Theme.HobiTV" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:colorAccent">#E50914</item>
+        <item name="android:navigationBarColor">#07080C</item>
+        <item name="android:statusBarColor">#07080C</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
 </resources>
